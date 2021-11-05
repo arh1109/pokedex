@@ -286,22 +286,22 @@ pokemon16.addEventListener('click', () => {
 /////////////////////////////////////
 function changeSelected(n) {
     imgSrc = '';
-    if(n == 1) {currentPkmn.className = 'squirtle'; currentPkmn.src='/images/squirtle.gif'}
-    if(n == 2) {currentPkmn.className = 'gengar'; currentPkmn.src='/images/gengar.gif'}
-    if(n == 3) {currentPkmn.className = 'celebii'; currentPkmn.src='/images/celebii.gif'}
-    if(n == 4) {currentPkmn.className = 'pikachu'; currentPkmn.src='/images/pikachu.gif'}
-    if(n == 5) {currentPkmn.className = 'snorlax'; currentPkmn.src='/images/snorlax.gif'}
-    if(n == 6) {currentPkmn.className = 'kabutops'; currentPkmn.src='/images/kabutops.gif'}
-    if(n == 7) {currentPkmn.className = 'heracross'; currentPkmn.src='/images/heracross.gif'}
-    if(n == 8) {currentPkmn.className = 'magmar'; currentPkmn.src='/images/magmar.gif'}
-    if(n == 9) {currentPkmn.className = 'charmander'; currentPkmn.src='/images/charmander.gif'}
-    if(n == 10) {currentPkmn.className = 'golem'; currentPkmn.src='/images/golem.gif'}
-    if(n == 11) {currentPkmn.className = 'eevee'; currentPkmn.src='/images/eevee.gif'}
-    if(n == 12) {currentPkmn.className = 'tyranitar'; currentPkmn.src='/images/tyranitar.gif'}
-    if(n == 13) {currentPkmn.className = 'mrmime'; currentPkmn.src='/images/mrmime.gif'}
-    if(n == 14) {currentPkmn.className = 'dratini'; currentPkmn.src='/images/dratini.gif'}
-    if(n == 15) {currentPkmn.className = 'lugia'; currentPkmn.src='/images/lugia.gif'}
-    if(n == 16) {currentPkmn.className = 'ivysaur'; currentPkmn.src='/images/ivysaur.gif'}
+    if(n == 1) {currentPkmn.className = 'squirtle'; currentPkmn.src='https://github.com/arh1109/pokedex/blob/master/images/squirtle.gif'}
+    if(n == 2) {currentPkmn.className = 'gengar'; currentPkmn.src='https://github.com/arh1109/pokedex/blob/master/images/gengar.gif'}
+    if(n == 3) {currentPkmn.className = 'celebii'; currentPkmn.src='https://github.com/arh1109/pokedex/blob/master/images/celebii.gif'}
+    if(n == 4) {currentPkmn.className = 'pikachu'; currentPkmn.src='https://github.com/arh1109/pokedex/blob/master/images/pikachu.gif'}
+    if(n == 5) {currentPkmn.className = 'snorlax'; currentPkmn.src='https://github.com/arh1109/pokedex/blob/master/images/snorlax.gif'}
+    if(n == 6) {currentPkmn.className = 'kabutops'; currentPkmn.src='https://github.com/arh1109/pokedex/blob/master/images/kabutops.gif'}
+    if(n == 7) {currentPkmn.className = 'heracross'; currentPkmn.src='https://github.com/arh1109/pokedex/blob/master/images/heracross.gif'}
+    if(n == 8) {currentPkmn.className = 'magmar'; currentPkmn.src='https://github.com/arh1109/pokedex/blob/master/images/magmar.gif'}
+    if(n == 9) {currentPkmn.className = 'charmander'; currentPkmn.src='https://github.com/arh1109/pokedex/blob/master/images/charmander.gif'}
+    if(n == 10) {currentPkmn.className = 'golem'; currentPkmn.src='https://github.com/arh1109/pokedex/blob/master/images/golem.gif'}
+    if(n == 11) {currentPkmn.className = 'eevee'; currentPkmn.src='https://github.com/arh1109/pokedex/blob/master/images/eevee.gif'}
+    if(n == 12) {currentPkmn.className = 'tyranitar'; currentPkmn.src='https://github.com/arh1109/pokedex/blob/master/images/tyranitar.gif'}
+    if(n == 13) {currentPkmn.className = 'mrmime'; currentPkmn.src='https://github.com/arh1109/pokedex/blob/master/images/mrmime.gif'}
+    if(n == 14) {currentPkmn.className = 'dratini'; currentPkmn.src='https://github.com/arh1109/pokedex/blob/master/images/dratini.gif'}
+    if(n == 15) {currentPkmn.className = 'lugia'; currentPkmn.src='https://github.com/arh1109/pokedex/blob/master/images/lugia.gif'}
+    if(n == 16) {currentPkmn.className = 'ivysaur'; currentPkmn.src='https://github.com/arh1109/pokedex/blob/master/images/ivysaur.gif'}
 }
 
 changeStats(3)
