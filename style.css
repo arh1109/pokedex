@@ -1,0 +1,348 @@
+/* * {
+  box-sizing: border-box;
+} */
+
+:root {
+  --blue-bg-color: aqua;
+  --red-bg-color: #d2042d;
+  --brown-bg-color: #c19a6b;
+  --purple-bg-color: #bf40bf;
+  --white-bg-color: #fff;
+  /* --green-bg-color: #228b22; */
+  --green-bg-color: background-image: linear-gradient(45deg, green, yellow);
+
+
+  --black-bg-color: #343434;
+  --yellow-bg-color: #ffea00;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.game-container {
+  width: 70%;
+  height: 70%;
+  background: lightgrey;
+  border-radius: 5px;
+}
+
+.grid-items {
+  height: 50%;
+  width: 100%;
+}
+
+.row-1 {
+  display: flex;
+  height: 50%;
+}
+
+.row-2 {
+  display: flex;
+  height: 50%;
+}
+
+.sprite {
+  
+  width: 12.5%;
+  margin: 5px;
+  border-radius: 3px;
+}
+
+.sprite {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.character-images {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 90%;
+  margin-top: 1em;
+}
+
+.left-content {
+  width: 43%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+
+  display: flex;
+  justify-content: center;
+  background-image: url("images/battle.jpeg");
+  background-repeat: no-repeat;
+  background-size: contain;
+
+  background-position: top;
+}
+
+.right-content {
+  width: 43%;
+  height: 110%;
+  margin: 0;
+  padding: 0;
+  margin-left: 10px;
+  
+  
+}
+
+.right-wrapper {
+  padding-left: 1em;
+  padding-right: 1em;
+  background-color: white;
+}
+
+.stats-wrapper {
+  display: flex;
+  font-size: 1.5rem;
+  
+}
+
+.stats {
+  margin-bottom: 10px;
+}
+
+.stat-row {
+  margin-bottom: 10px;
+}
+
+
+.stats {
+  display: block;
+  /* background-color: yellow; */
+  display: flex;
+}
+
+.stats-wrapper-right {
+  width: 55%;
+  
+}
+
+.stat-row {
+  background-color: red;
+  justify-content: center;
+
+  margin-left: 20px;
+  display: flex;
+  width: 1px;
+}
+
+#poke-name {
+  padding-top: 0.5em;
+  margin-top: 1em;
+  letter-spacing: 2px;
+}
+
+.left-content img {
+  margin: 0;
+  padding: 0;
+  width: 45%;
+  height: 45%;
+}
+
+
+.game-container {
+  position: relative;
+}
+
+/* set bg image to each id */
+#s1 {
+  background-image: url("images/small/squirtle.png"), linear-gradient(45deg, cornflowerblue, darkblue);
+  background-color: var(--blue-bg-color);
+  /* border: 1px solid #ccc; */
+}
+#s2 {
+  background-image: url("images/small/gengar.png"), linear-gradient(45deg, var(--purple-bg-color), darkmagenta);
+  /* background-color: var(--purple-bg-color); */
+}
+#s3 {
+  background-image: url("images/small/celebii.png"), linear-gradient(45deg, green, yellow);;
+  /* background-color: var(--green-bg-color); */
+}
+#s4 {
+  background-image: url("images/small/pikachu.png"), linear-gradient(45deg, lightgoldenrodyellow, var(--yellow-bg-color));
+  /* background-color: var(--yellow-bg-color); */
+}
+#s5 {
+  background-image: url("images/small/snorlax.png"),
+  linear-gradient(45deg, lavender, lavenderblush);
+  /* background-color: var(--white-bg-color); */
+}
+#s6 {
+  background-image: url("images/small/kabutops.png"), 
+  linear-gradient(45deg, var(--brown-bg-color), sienna);
+  
+  background-color: var(--brown-bg-color);
+}
+#s7 {
+  background-image: url("images/small/heracross.png"), linear-gradient(45deg, green, yellow);
+  /* background-color: var(--green-bg-color); */
+}
+#s8 {
+  background-image: url("images/small/magmar.png"), linear-gradient(45deg, red, orange);
+  background-color: var(--red-bg-color);
+}
+#s9 {
+  background-image: url("images/small/charmander.png"), linear-gradient(45deg, red, orange);
+  background-color: var(--red-bg-color);
+}
+#s10 {
+  background-image: url("images/small/golem.png"), linear-gradient(45deg, var(--brown-bg-color), sienna);
+  background-color: var(--brown-bg-color);
+}
+#s11 {
+  background-image: url("images/small/eevee.png"), linear-gradient(45deg, lavender, lavenderblush);
+  /* background-color: var(--white-bg-color); */
+}
+#s12 {
+  background-image: url("images/small/tyranitar.png"), linear-gradient(45deg,  slategray,var(--black-bg-color));
+  background-color: var(--black-bg-color);
+}
+#s13 {
+  background-image: url("images/small/mrmime.png"), 
+  linear-gradient(45deg, var(--purple-bg-color), darkmagenta);
+  background-color: var(--purple-bg-color);
+}
+#s14 {
+  background-image: url("images/small/dratini.png"),
+  linear-gradient(45deg, lavender, lavenderblush);
+}
+#s15 {
+  background-image: url("images/small/lugia.png"), linear-gradient(45deg, var(--purple-bg-color), darkmagenta);
+  /* background-color: var(--purple-bg-color); */
+}
+#s16 {
+  background-image: url("images/small/ivysaur.png"), linear-gradient(45deg, green, yellow);
+  /* background-color: var(--green-bg-color); */
+}
+
+.sprite:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+/* Individual scaling values */
+/*  HARD CODED THE MARGIN TOP VALUES */
+
+img.golem {
+  width: 35%;
+  height: 30%;
+  margin-top: 5em;
+  margin-left: 2em;
+}
+
+img.magmar {
+  width: 30%;
+  height: 35%;
+  margin-top: 4em;
+}
+
+img.kabutops {
+  width: 27%;
+  height: 38%;
+  margin-top: 2.5em;
+}
+
+img.celebii {
+  width: 25%;
+  height: 25%;
+  margin-top: 1em;
+}
+
+img.heracross {
+  width: 35%;
+  height: 35%;
+  margin-top: 4em;
+  margin-left: 3em;
+}
+
+img.lugia {
+  width: 60%;
+  height: 60%;
+  margin-top: -4em;
+  z-index: 2;
+}
+
+img.mrmime {
+  width: 30%;
+  height: 30%;
+  margin-top: 5em;
+  margin-left: 4em;
+}
+
+img.charmander {
+  width: 18%;
+  height: 20%;
+  margin-top: 9em;
+}
+
+img.ivysaur {
+  width: 27%;
+  height: 25%;
+  margin-top: 7em;
+  margin-left: 2em;
+}
+
+img.tyranitar {
+  width: 30%;
+  height: 40%;
+  margin-top: 2.5em;
+  margin-left: 1em;
+}
+
+img.snorlax {
+  width: 50%;
+  height: 50%;
+  margin-top: -2em;
+  z-index: 2;
+}
+
+img.pikachu {
+  width: 20%;
+  height: 20%;
+  margin-top: 9em;
+  margin-left: 4em;
+}
+
+img.gengar {
+  width: 35%;
+  height: 35%;
+  margin-top: 3.5em;
+  margin-left: 3em;
+}
+
+img.squirtle {
+  width: 25%;
+  height: 25%;
+  margin-top: 7em;
+}
+
+img.dratini {
+  width: 14%;
+  height: 20%;
+  margin-top: 9em;
+  margin-left: 2em;
+}
+
+img.eevee {
+  width: 25%;
+  height: 20%;
+  margin-top: 8.5em;
+  margin-left: 2em;
+}
+
+
+
+
+

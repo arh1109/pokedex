@@ -1,0 +1,173 @@
+[
+    {
+        "name": "Squirtle",
+        "national#": 7,
+        "type1": "water",
+        "Hp": 44,
+        "Attack": 48,
+        "Defense": 65,
+        "Special Attack": 50,
+        "Special Defense": 64,
+        "Speed": 43
+    },
+    {
+        "name": "Gengar",
+        "national#": 94,
+        "type1": "Ghost",
+        "type2": "Poison",
+        "Hp": 60,
+        "Attack": 65,
+        "Defense": 60,
+        "Special Attack": 130,
+        "Special Defense": 75,
+        "Speed": 110
+    },
+    {
+        "name": "Celebii",
+        "national#": 251,
+        "type1": "Grass",
+        "type2": "Psychic",
+        "Hp": 100,
+        "Attack": 100,
+        "Defense": 100,
+        "Special Attack": 100,
+        "Special Defense": 100,
+        "Speed": 100
+    },{
+        "name": "Pikachu",
+        "national#": 25,
+        "type1": "Electric",
+        "Hp": 35,
+        "Attack": 55,
+        "Defense": 40,
+        "Special Attack": 50,
+        "Special Defense": 50,
+        "Speed": 90
+    }, {
+        "name": "Snorlax",
+        "national#": 143,
+        "type1": "Normal",
+        "Hp": 160,
+        "Attack": 110,
+        "Defense": 65,
+        "Special Attack": 65,
+        "Special Defense": 110,
+        "Speed": 30
+    }, {
+        "name": "Kabutops",
+        "national#": 141,
+        "type1": "Rock",
+        "type2": "Water",
+        "Hp": 60,
+        "Attack": 115,
+        "Defense": 105,
+        "Special Attack": 65,
+        "Special Defense": 70,
+        "Speed": 80
+    }, {
+        "name": "Heracross",
+        "national#": 214,
+        "type1": "Bug",
+        "type2": "Fighting",
+        "Hp": 80,
+        "Attack": 125,
+        "Defense": 75,
+        "Special Attack": 40,
+        "Special Defense": 95,
+        "Speed": 85
+    }, {
+        "name": "Magmar",
+        "national#": 126,
+        "type1": "Fire",
+        "Hp": 65,
+        "Attack": 95,
+        "Defense": 57,
+        "Special Attack": 100,
+        "Special Defense": 85,
+        "Speed": 93
+    }, {
+        "name": "Charmander",
+        "national#": 4,
+        "type1": "Fire",
+        "Hp": 39,
+        "Attack": 52,
+        "Defense": 43,
+        "Special Attack": 60,
+        "Special Defense": 50,
+        "Speed": 65
+    }, {
+        "name": "Golem",
+        "national#": 76,
+        "type1": "Rock",
+        "type2": "Ground",
+        "Hp": 80,
+        "Attack": 120,
+        "Defense": 130,
+        "Special Attack": 55,
+        "Special Defense": 65,
+        "Speed": 45
+    }, {
+        "name": "Eevee",
+        "national#": 133,
+        "type1": "Normal",
+        "Hp": 55,
+        "Attack": 55,
+        "Defense": 50,
+        "Special Attack": 45,
+        "Special Defense": 65,
+        "Speed": 55
+    }, {
+        "name": "Tyranitar",
+        "national#": 248,
+        "type1": "Rock",
+        "type2": "Dark",
+        "Hp": 100,
+        "Attack": 134,
+        "Defense": 110,
+        "Special Attack": 95,
+        "Special Defense": 100,
+        "Speed": 61
+    }, {
+        "name": "Mr. Mime",
+        "national#": 122,
+        "type1": "Psychic",
+        "Hp": 40,
+        "Attack": 45,
+        "Defense": 65,
+        "Special Attack": 100,
+        "Special Defense": 120,
+        "Speed": 90
+    }, {
+        "name": "Dratini",
+        "national#": 147,
+        "type1": "Dragon",
+        "Hp": 41,
+        "Attack": 64,
+        "Defense": 45,
+        "Special Attack": 50,
+        "Special Defense": 50,
+        "Speed": 50
+    }, {
+        "name": "Lugia",
+        "national#": 249,
+        "type1": "Psychic",
+        "type2": "Flying",
+        "Hp": 106,
+        "Attack": 90,
+        "Defense": 130,
+        "Special Attack": 90,
+        "Special Defense": 154,
+        "Speed": 110
+    }, {
+        "name": "Ivysaur",
+        "national#": 2,
+        "type1": "Grass",
+        "type2": "Poison",
+        "Hp": 60,
+        "Attack": 62,
+        "Defense": 63,
+        "Special Attack": 80,
+        "Special Defense": 80,
+        "Speed": 60
+    }
+]
