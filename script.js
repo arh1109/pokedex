@@ -12,17 +12,7 @@ const spdRow = document.getElementById('spd-row');
 const pokeName = document.getElementById('poke-name')
 const pokeArray = [];
 
-function preloadImage(name)
-{
-    var img=new Image();
-    img.src=`https://raw.githubusercontent.com/arh1109/pokedex/master/images/${name}.gif`;
-    pokeArray.push(img);
-}
 
-const pokeNameArray = ['celebii', 'charmander', 'dratini', 'eevee', 'gengar', 'golem', 'heracross', 'ivysaur', 'kabutops', 'lugia', 'magmar', 'mrmime', 'pikachu', 'snorlax', 'squirtle', 'tyranitar']
-for(let i = 0; i < pokeNameArray.length; i++) {
-    preloadImage(pokeNameArray[i]);
-}
 
 
 const data = [
